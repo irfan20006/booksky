@@ -38,9 +38,14 @@ addbook.addEventListener("click", function (event) {
   h2.textContent = booktitleinput.value;
   h5.textContent = bookauthorinput.value;
   p.textContent = bookdescriptioninput.value;
+  popupbox.style.display = "none";
+  popupoverlay.style.display = "none";
 
   container.append(div);
   btn2.addEventListener("click", function () {
     div.remove();
+    
+
+
   });
 });

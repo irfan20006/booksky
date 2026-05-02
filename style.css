@@ -23,6 +23,7 @@ body {
     color: white;
     margin: 30px;
     display:inline-block;
+    vertical-align:TOP;
   }
   .book-container h2 {
     color: #fd6569;
